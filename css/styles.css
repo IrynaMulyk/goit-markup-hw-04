@@ -94,7 +94,6 @@ ul {
 .order-container {
   padding-top: 192px;
   padding-bottom: 192px;
-  height: 603px;
   text-align: center;
   background-color: var(--primColor2);
   max-width: 1440px;
@@ -167,6 +166,7 @@ ul {
   height: 112px;
   background-color: var(--primColor5);
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 .quality-icon {
   width: 64px;
@@ -209,6 +209,9 @@ ul {
 .image {
   display: block;
 }
+.image-img {
+ border: 1px solid #E7E9FC;
+}
 .team {
   background: var(--primColor5);
 }
@@ -243,9 +246,11 @@ ul {
   display: block;
 }
 .name-position {
-  padding-top: 32px;
+  padding: 32px;
   padding-bottom: 32px;
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .name {
   color: var(--primColor2);
@@ -265,7 +270,6 @@ ul {
 }
 .social-media-list {
   display: flex;
-  padding: 0 16px;
   height: 40px;
   gap: 24px;
 }
